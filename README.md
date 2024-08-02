@@ -43,7 +43,6 @@ Ensures the model generalizes well to new, unseen data without overfitting.
 
 6. Model Deployment
 The trained model is saved and can be integrated into a real-time application.
-
 - The application:
 Captures live video using a webcam.
 Processes video frames to isolate the hand region using HSV color space conversion, Gaussian blur, and morphological transformations.
@@ -58,11 +57,10 @@ Kernel Sizes and Strides: Larger kernel sizes and strides with appropriate paddi
 -ReLU: Consistently high accuracy (98-99%), best overall performance.
 -Sigmoid: Lower and more variable accuracy (96-97%), slower convergence due to vanishing gradient problem.
 -Tanh: Better than Sigmoid but slightly worse than ReLU (97-98%).
-
---> Conclusion
+--> Conclusion:-
 Larger kernels and strides with same padding yield high accuracy.
 Combining different activation functions can enhance model performance.
 ReLU is the most effective activation function for this deep network.
 
---> Learning Experience
+--> Learning Experience:-
 This project provided valuable hands-on experience with deep learning and real-time image processing. It helped deepen my understanding of data collection, preprocessing, model training, and deployment, culminating in a practical application that bridges theoretical knowledge with real-world utility.
