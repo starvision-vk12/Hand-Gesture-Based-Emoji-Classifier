@@ -54,9 +54,9 @@ Overlays the corresponding emoji on the video feed based on the prediction.
 Model Performance
 Kernel Sizes and Strides: Larger kernel sizes and strides with appropriate padding performed better, maintaining high accuracy.
 --> Activation Functions:
--ReLU: Consistently high accuracy (98-99%), best overall performance.
--Sigmoid: Lower and more variable accuracy (96-97%), slower convergence due to vanishing gradient problem.
--Tanh: Better than Sigmoid but slightly worse than ReLU (97-98%).
+-ReLU: Consistently high accuracy (80-85%), best overall performance.
+-Sigmoid: Lower and more variable accuracy (68-70%), slower convergence due to vanishing gradient problem.
+-Tanh: Better than Sigmoid but slightly worse than ReLU (73-76%).
 --> Conclusion:-
 Larger kernels and strides with same padding yield high accuracy.
 Combining different activation functions can enhance model performance.
